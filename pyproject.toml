@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "langgraph"
+version = "0.1.0"
+description = ""
+authors = ["rushikesh-borgaonkar-coditas <rushikesh.borgaonkar@coditas.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langchain = "^0.3.8"
+langchain-groq = "^0.2.1"
+python-dotenv = "^1.0.1"
+flask = "^3.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
